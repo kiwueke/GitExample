@@ -7,7 +7,7 @@ class SingletonClass():
     def getInstance():
         if SingletonClass.__instance == None:
             SingletonClass()
-        return SingletonClass.__instance
+        return SingletonClass.__instance 
 
 
     def __init__(self):
